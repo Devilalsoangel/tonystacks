@@ -3,63 +3,81 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>TonyCommerce — Headless Ecommerce | TONY STACKS</title>
-<meta name="description" content="TonyCommerce is a modern headless ecommerce platform: storefront API, admin dashboard, catalog and orders.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%238b5cf6'/%3E%3Cstop offset='.55' stop-color='%2322d3ee'/%3E%3Cstop offset='1' stop-color='%23f59e0b'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23g)'/%3E%3Ctext x='32' y='43' font-family='Arial,sans-serif' font-size='28' font-weight='900' fill='%23fff' text-anchor='middle'%3ETS%3C/text%3E%3C/svg%3E">
+<title>TonyCommerce — headless ecommerce on Vendure | TONY STACKS</title>
+<meta name="description" content="TonyCommerce: headless commerce engine on Vendure. Admin dashboard, GraphQL shop API, one catalog powering web, mobile and WhatsApp storefronts.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='6' fill='%230A0A0B' stroke='%23222226'/%3E%3Ctext x='32' y='40' font-family='Arial' font-size='22' font-weight='900' fill='%23F2F0EB' text-anchor='middle'%3ETS%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-<div class="bg-fx"><div class="orb a"></div><div class="orb b"></div><div class="orb c"></div></div>
+<div class="bg-fx"></div>
 <div class="gridlines"></div>
+
 <nav class="nav"><div class="wrap nav-in">
-  <a class="brand" href="../index.html"><span class="lg">TS</span><span>TONY&nbsp;<b>STACKS</b></span></a>
-  <div class="nav-links"><a href="../index.html#products">Products</a><a href="../index.html#stack">Stack</a><a href="../index.html#about">About</a><a href="#contact">Contact</a></div>
-  <a class="nav-cta" href="#contact">Request demo</a>
+  <a class="brand" href="../index.html"><span class="lg">TS</span><span>TONY <b>STACKS</b></span></a>
+  <div class="nav-links">
+    <a href="../index.html#products">Products</a><a href="../pricing.html">Pricing</a><a href="../demo.html">Demos</a><a href="../customers.html">Customers</a><a href="../changelog.html">Changelog</a>
+  </div>
+  <a class="nav-cta" href="../index.html#contact">Start a build →</a>
   <button class="burger" aria-label="Menu">☰</button>
 </div></nav>
+
 <header class="phero"><div class="wrap">
-  <p class="crumbs"><a href="../index.html">TONY STACKS</a> / Headless Ecommerce</p>
-  <span class="eyebrow rv"><span class="dot"></span> LIVE IN PRODUCTION</span>
+  <p class="crumbs"><a href="../index.html">TONY STACKS</a> / Products / TonyCommerce</p>
+  <span class="eyebrow rv"><i></i> LIVE · ADMIN OPEN TO VISITORS</span>
   <h1 class="rv d1">TonyCommerce</h1>
-  <p class="lede rv d2">A modern headless ecommerce engine: GraphQL shop API, full admin dashboard, catalog, orders and promotions. Storefronts on any frontend — web, mobile, WhatsApp bots — all driven by one commerce core.</p>
+  <p class="lede rv d2">A headless commerce engine, not a template store. <b>One catalog powers web, mobile and WhatsApp storefronts</b> through GraphQL. The admin is live — walk in, create a product, query the API.</p>
   <div class="hero-actions rv d3">
-    <a class="btn primary" href="https://tonycommerce.onrender.com/admin" target="_blank" rel="noopener">Open the live admin ↗</a>
-    <a class="btn ghost" href="https://github.com/vendure-ecommerce/vendure" target="_blank" rel="noopener">View core source</a>
+    <a class="btn primary" href="https://tonycommerce.onrender.com/admin" target="_blank" rel="noopener">Open live admin ↗</a>
+    <a class="btn ghost" href="https://github.com/vendure-ecommerce/vendure" target="_blank" rel="noopener">Core: vendure-ecommerce/vendure</a>
   </div>
-  <div class="shot rv d4"><img src="../assets/img/twenty.png" alt="TonyCommerce preview"></div>
-  <p class="shot-cap">▲ TonyCommerce · Headless Ecommerce Platform</p>
+
+  <div class="media-frame rv d4"><img src="../assets/img/shot-commerce.png" alt="TonyCommerce admin dashboard on Vendure" loading="lazy"></div>
+  <p class="shot-cap">▲ Live admin on free tier — sleeps after 15min, first wake takes ~40s. Login: superadmin (password on the demos page).</p>
 </div></header>
+
 <section style="padding-top:40px"><div class="wrap">
-  <div class="sec-head rv"><span class="kicker">// CAPABILITIES</span><h2>Everything included.</h2></div>
-  <div class="feat-grid">
-    <div class="fc rv"><span class="ic">🛒</span><h4>Full commerce engine</h4><p>Catalogs, variants, orders, promotions, taxes and shipping — production-grade domain logic.</p></div>
-    <div class="fc rv"><span class="ic">📊</span><h4>Admin dashboard</h4><p>A fast, clean back-office to manage products and orders from day one.</p></div>
-    <div class="fc rv"><span class="ic">🔌</span><h4>GraphQL APIs</h4><p>Shop and Admin APIs power any frontend: web store, mobile app, kiosk, chat bot.</p></div>
-    <div class="fc rv"><span class="ic">🎨</span><h4>Headless freedom</h4><p>Next.js, mobile or custom UI — the storefront is whatever you design.</p></div>
-    <div class="fc rv"><span class="ic">⚡</span><h4>Lightweight ops</h4><p>Embedded database, single-service deploy — runs anywhere including free tiers.</p></div>
-    <div class="fc rv"><span class="ic">🧩</span><h4>Extensible plugins</h4><p>Payments, shipping, search and custom logic plug straight into the pipeline.</p></div>
+  <div class="sec-head rv">
+    <span class="kicker">CAPABILITIES</span>
+    <h2>One commerce core, <em class="serif" style="font-style:italic;color:var(--mut);font-weight:400">every storefront.</em></h2>
   </div>
-  <div class="credit rv"><span class="ic">⚖️</span>
-    <p><b>Honest open-core credit:</b> TonyCommerce runs on <b>Vendure</b>, licensed under GPL-3.0-or-later. We customized, branded, deployed and operate it — and we say so. Original project: <a href="https://github.com/vendure-ecommerce/vendure" target="_blank" rel="noopener">vendure-ecommerce/vendure</a>.</p>
+  <div class="feat-grid">
+    <div class="fc rv"><span class="ic mono">01</span><h4>Full commerce engine</h4><p>Catalogs, variants, orders, promotions, taxes, shipping — production-grade domain logic, not a toy cart.</p></div>
+    <div class="fc rv"><span class="ic mono">02</span><h4>Admin dashboard</h4><p>A fast, clean back-office for products and orders from day one. You're welcome to click around ours.</p></div>
+    <div class="fc rv"><span class="ic mono">03</span><h4>GraphQL APIs</h4><p>Shop and Admin APIs drive any frontend: web store, mobile app, kiosk, WhatsApp bot.</p></div>
+    <div class="fc rv"><span class="ic mono">04</span><h4>Headless freedom</h4><p>Next.js, mobile or custom UI — the storefront is whatever you design, the core stays put.</p></div>
+    <div class="fc rv"><span class="ic mono">05</span><h4>Lightweight ops</h4><p>Single-service deploy, runs anywhere including free tiers — proof: the demo you're about to open.</p></div>
+    <div class="fc rv"><span class="ic mono">06</span><h4>Plugin pipeline</h4><p>Payments, shipping, search and custom logic plug straight into the request pipeline.</p></div>
+  </div>
+
+  <div class="credit rv">
+    <span class="ic mono">GPL</span>
+    <p><b>Honest open-core credit:</b> TonyCommerce runs on <b>Vendure</b> (GPL-3.0-or-later). We rebrand, harden, host and operate it — and we say so. Original project: <a href="https://github.com/vendure-ecommerce/vendure" target="_blank" rel="noopener">vendure-ecommerce/vendure</a>. License and commit history kept public.</p>
   </div>
 </div></section>
+
 <section id="contact"><div class="wrap">
   <div class="band rv">
     <h2>Want TonyCommerce selling for you?</h2>
-    <p>We deploy custom instances with your catalog, payments and branding.</p>
+    <p>We deploy custom instances with your catalog, payments and branding. Storefront mockup included in week one.</p>
     <div class="hero-actions" style="justify-content:center">
-      <a class="btn primary" href="mailto:hello@tonystacks.io?subject=TonyCommerce demo request">Request access</a>
-      <a class="btn ghost" href="../index.html#products">← Back to all products</a>
+      <a class="btn primary" href="mailto:hello@tonystacks.io?subject=TonyCommerce build request">Start a build →</a>
+      <a class="btn ghost" href="https://tonycommerce.onrender.com/admin" target="_blank" rel="noopener">Or open the admin first ↗</a>
     </div>
   </div>
 </div></section>
-<footer><div class="wrap f-grid">
-  <div>
-    <div class="wordmark">TONY STACKS</div>
-    <p class="f-meta">© <span data-year></span> Tony Stacks · TonyCommerce is part of the Tony Stacks product suite.</p>
+
+<footer><div class="wrap">
+  <div class="f-grid">
+    <div>
+      <div class="wordmark">TONY STACKS</div>
+      <p class="f-meta">© <span data-year></span> Tony Stacks · TonyCommerce is part of the Tony Stacks product suite.<br>Built on credited open-source cores. No hidden forks.</p>
+    </div>
+    <div class="f-links">
+      <a href="../index.html#products">All products</a><a href="../pricing.html">Pricing</a><a href="../demo.html">Demos</a><a href="mailto:hello@tonystacks.io">hello@tonystacks.io</a>
+    </div>
   </div>
-  <div class="f-links"><a href="../index.html#products">All products</a><a href="../index.html#about">About</a><a href="mailto:hello@tonystacks.io">Contact</a></div>
 </div></footer>
+
 <script src="../assets/js/main.js"></script>
 </body>
 </html>
