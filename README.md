@@ -8,7 +8,6 @@ Industrial-grade business software suite: analytics, AI assistants, agentic auto
 
 | Product | Category | Open core | License |
 |---|---|---|---|
-| TonyAnalytics | Web & product analytics | [Umami](https://github.com/umami-software/umami) | MIT |
 | TonyMind | AI assistant platform | [LibreChat](https://github.com/danny-avila/LibreChat) | MIT |
 | TonyFlow | AI automation & agents | [Langflow](https://github.com/langflow-ai/langflow) | MIT |
 | TonyDesk CRM | Sales CRM | [Twenty](https://github.com/twentyhq/twenty) | AGPL-3.0 |
