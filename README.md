@@ -10,7 +10,8 @@ Industrial-grade business software suite: analytics, AI assistants, agentic auto
 |---|---|---|---|
 | TonyMind | AI assistant platform | [LibreChat](https://github.com/danny-avila/LibreChat) | MIT |
 | TonyFlow | AI automation & agents | [Langflow](https://github.com/langflow-ai/langflow) | MIT |
-| TonyDesk CRM | Sales CRM | [Twenty](https://github.com/twentyhq/twenty) | AGPL-3.0 |
+| TonyDesk CRM | Sales CRM | [Vendure](https://github.com/vendure-ecommerce/vendure) | GPL-3.0 |
+| TonyCommerce | Headless ecommerce | [Vendure](https://github.com/twentyhq/twenty) | AGPL-3.0 |
 | TonyChat | WhatsApp & omnichannel inbox | [Chatwoot](https://github.com/chatwoot/chatwoot) + [Evolution API](https://github.com/EvolutionAPI/evolution-api) | MIT / Apache-2.0 |
 | StackERP | Full-suite ERP | [ERPNext](https://github.com/frappe/erpnext) | GPL-3.0 |
 
