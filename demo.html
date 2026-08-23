@@ -1,0 +1,69 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Demos — TONY STACKS</title>
+<meta name="description" content="All live demos with logins, seeded data, and status. No call needed.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='6' fill='%230A0A0B'/%3E%3Ctext x='32' y='40' font-family='Arial' font-size='22' font-weight='900' fill='%23F2F0EB' text-anchor='middle'%3ETS%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/style.css">
+<style>.demo-table{width:100%;border-collapse:collapse;font-size:.85rem}.demo-table th{font-family:"JetBrains Mono",monospace;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--dim);text-align:left;padding:12px;border-bottom:1px solid var(--line)}.demo-table td{padding:14px 12px;border-bottom:1px solid var(--line);vertical-align:top}.status{font-family:"JetBrains Mono",monospace;font-size:.7rem;padding:4px 8px;border-radius:99px}.live{color:var(--rust);background:rgba(255,63,26,.08);border:1px solid rgba(255,63,26,.25)}.beta{color:var(--mut);border:1px solid var(--line2)}</style>
+</head><body>
+<div class="bg-fx"></div><div class="gridlines"></div>
+<nav class="nav"><div class="wrap nav-in">
+  <a class="brand" href="index.html"><span class="lg">TS</span><span>TONY <b>STACKS</b></span></a>
+  <div class="nav-links"><a href="index.html#products">Products</a><a href="pricing.html">Pricing</a><a href="demo.html" style="color:var(--txt);border-bottom-color:var(--txt)">Demos</a><a href="customers.html">Customers</a></div>
+  <a class="nav-cta" href="index.html#contact">Start a build →</a><button class="burger">☰</button>
+</div></nav>
+<header class="phero"><div class="wrap">
+  <p class="crumbs"><a href="index.html">TONY STACKS</a> / Demos</p>
+  <span class="kicker">No call needed — try it yourself</span>
+  <h1>Every login, every password, every seeded dataset.</h1>
+  <p class="lede">Real logins, not screenshots. Free-tier services sleep after 15min — first hit takes 30–45s to wake. Static demos are instant.</p>
+  <div style="overflow-x:auto;margin-top:28px;border:1px solid var(--line);border-radius:12px;background:var(--panel)">
+  <table class="demo-table">
+    <tr><th>Product</th><th>Live URL</th><th>Login</th><th>Seed data</th><th>Status</th></tr>
+    <tr>
+      <td><b>TonyCommerce</b> <span style="color:var(--dim);font-size:.75rem">· Vendure</span></td>
+      <td><a href="https://tonycommerce.onrender.com/admin" target="_blank" style="color:var(--rust)">tonycommerce.onrender.com/admin →</a></td>
+      <td style="font-family:'JetBrains Mono',monospace;font-size:.78rem">superadmin<br>mt9-W6U-2QHv9vbu</td>
+      <td>Empty catalog — create products, see admin + GraphQL at /admin-api</td>
+      <td><span class="status live">● Live</span><br><span style="font-size:.7rem;color:var(--dim)">sleeps 15m</span></td>
+    </tr>
+    <tr>
+      <td><b>StackERP</b> <span style="color:var(--dim);font-size:.75rem">· ERPNext</span></td>
+      <td><a href="https://tonysuite-demo.onrender.com" target="_blank" style="color:var(--rust)">tonysuite-demo.onrender.com →</a></td>
+      <td>— open demo</td>
+      <td>Mehta Steel Traders — 4,200 SKUs, invoices, challans, HR attendance</td>
+      <td><span class="status live">● Live demo</span><br><span style="font-size:.7rem;color:var(--dim)">static · instant</span></td>
+    </tr>
+    <tr>
+      <td><b>TonyDesk CRM</b> <span style="color:var(--dim);font-size:.75rem">· Twenty</span></td>
+      <td><a href="https://tonydesk-demo.onrender.com" target="_blank" style="color:var(--rust)">tonydesk-demo.onrender.com →</a></td>
+      <td>— open demo</td>
+      <td>34 deals across Lead → Won · ₹1.08Cr pipeline</td>
+      <td><span class="status live">● Live demo</span><br><span style="font-size:.7rem;color:var(--dim)">static · instant</span></td>
+    </tr>
+    <tr>
+      <td><b>TonyAnalytics</b> <span style="color:var(--dim);font-size:.75rem">· Umami</span></td>
+      <td><a href="https://tonyanalytics.onrender.com" target="_blank">tonyanalytics.onrender.com →</a></td>
+      <td style="font-family:'JetBrains Mono',monospace;font-size:.78rem">admin<br>umami</td>
+      <td>Your own site analytics — connect tonystacks domain</td>
+      <td><span class="status live">● Live</span></td>
+    </tr>
+    <tr>
+      <td><b>TonyMind</b> <span style="color:var(--dim);font-size:.75rem">· LibreChat</span></td>
+      <td><a href="products/tonymind.html">Beta page →</a></td>
+      <td>beta — request access</td>
+      <td>Multi-model RAG demo on request</td>
+      <td><span class="status beta">Beta</span></td>
+    </tr>
+    <tr>
+      <td><b>TonyFlow</b> <span style="color:var(--dim);font-size:.75rem">· Langflow</span></td>
+      <td><a href="products/tonyflow.html">Beta page →</a></td>
+      <td>beta</td>
+      <td>Canvas demo on request</td>
+      <td><span class="status beta">Beta</span></td>
+    </tr>
+  </table>
+  </div>
+  <p style="color:var(--dim);font-size:.75rem;margin-top:12px;font-family:'JetBrains Mono',monospace">Free tier = cold start 30–45s for Node services. Static demos never sleep. Need a seeded ERP with your SKUs? Say the word — we import 50 SKUs live.</p>
+</div></header>
+<footer><div class="wrap f-grid"><div><div class="wordmark">TONY STACKS</div><p class="f-meta">© <span data-year></span> Tony Stacks</p></div><div class="f-links"><a href="pricing.html">Pricing</a><a href="customers.html">Customers</a><a href="demo.html">Demos</a></div></div></footer>
+<script src="assets/js/main.js"></script></body></html>
